@@ -2,13 +2,16 @@ body{
     font-family: 'PT Sans', sans-serif;
     margin-top: 30px;
 }
-h1{
+.Heading{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 60px;
 }
+h1{
+    font-size: 60px;
+}
 .side-border{
-    border-left: solid 4px tomato ; 
-    line-height: 30px;
+    border-left: solid 4px rgb(255, 0, 43) ;
+    line-height: 35px;
     padding-left: 20px;
 }
 
@@ -26,22 +29,31 @@ h1{
     padding-left: 5%;
 }
 .link-button{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 20;
     text-decoration: none;
     background-color: rgb(243, 76, 57);
-    padding: 5px 10px;
-    border-radius: 5px;
+    background-image: linear-gradient(orange, orangered  );
+    padding: 10px 16px;
+    border-radius: 10px;
     color: white;
     text-align: left;
 }
 .red-clr{
     color: red;
 }
+.grn-clr{
+    color: rgb(0, 167, 0);
+}
+.org-clr{
+    color: orangered
+}
 .flexible-container{
     display: flex;
     margin-bottom: 200px;
 }
 .blue-clr{
-    color: blue;
+    color: rgb(20, 40, 95);
 }
 h2{
     font-size: 40px;
@@ -85,5 +97,21 @@ h2{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position:right;
-    margin-right: 0%;
+}
+.marg-left{
+    margin-left: 4%;
+    margin-top: 5%;
+
+}
+.txt-middle{
+    text-align: left;
+    margin-top: 120px;
+}
+.ending{
+    text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+footer{
+    text-align: center;
 }
