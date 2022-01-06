@@ -1,10 +1,17 @@
 body{
     font-family: 'PT Sans', sans-serif;
+    margin-top: 30px;
 }
 h1{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 60px;
 }
+.side-border{
+    border-left: solid 4px tomato ; 
+    line-height: 30px;
+    padding-left: 20px;
+}
+
 .half-wdt{
     width: 80%;
     padding-left: 5%;
@@ -20,8 +27,7 @@ h1{
 }
 .link-button{
     text-decoration: none;
-    background-color: orange;
-    background-image: linear-gradient(orange, red);
+    background-color: rgb(243, 76, 57);
     padding: 5px 10px;
     border-radius: 5px;
     color: white;
@@ -32,5 +38,52 @@ h1{
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
+}
+.blue-clr{
+    color: blue;
+}
+h2{
+    font-size: 40px;
+}
+.small-fnt{
+    font-size: 14px;
+}
+#scnd-title{
+    text-align:center;
+}
+.bg-clr-one{
+    background-color: rgba(229, 252, 252, 0.705);
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 30px;
+    border:1px solid whitesmoke;
+    padding-left: 40px;
+    padding-right: 30px;
+    margin: 0px 20px 40px;
+}
+.bg-clr-two{
+    background-color: rgba(211, 211, 211, 0.712);
+    background-size: cover;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 30px;
+    border:1px solid whitesmoke;
+    padding-left: 40px;
+    padding-right: 30px;
+    margin: 0px 20px 40px;
+}
+.bg-clr-three{
+    background-color: rgba(253, 208, 215, 0.562);
+    background-size: cover;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 30px;
+    border:1px solid whitesmoke;
+    padding-left: 40px;
+    padding-right: 30px;
+    margin: 0px 20px 40px;
+}
+.nBg-img{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    margin-right: 0%;
 }
